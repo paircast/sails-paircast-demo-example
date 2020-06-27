@@ -7,6 +7,14 @@ parasails.registerPage('hello-world', {
     //…
   },
 
+  watch: {
+    me: {
+      handler: function (newValue) {
+        console.log(newValue)
+      }
+    }
+  },
+
   //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
   //  ║  ║╠╣ ║╣ ║  ╚╦╝║  ║  ║╣
   //  ╩═╝╩╚  ╚═╝╚═╝ ╩ ╚═╝╩═╝╚═╝
