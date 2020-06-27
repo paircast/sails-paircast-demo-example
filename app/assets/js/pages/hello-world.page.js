@@ -12,7 +12,7 @@ parasails.registerPage('hello-world', {
       deep: true,
       handler: function (newValue) {
         console.log('going')
-        Cloud.updateProfile(newValue)
+        Cloud.updateProfile.with(newValue)
       }
     }
   },
