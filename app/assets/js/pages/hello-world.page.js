@@ -9,6 +9,7 @@ parasails.registerPage('hello-world', {
 
   watch: {
     me: {
+      deep: true,
       handler: function (newValue) {
         console.log(newValue)
       }
