@@ -15,7 +15,7 @@ parasails.registerPage('hello-world', {
   },
   mounted: async function () {
     //…
-    alert('te')
+    alert('test')
   },
 
   //  ╦╔╗╔╔╦╗╔═╗╦═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
