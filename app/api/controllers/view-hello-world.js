@@ -1,12 +1,6 @@
 module.exports = {
-
-
   friendlyName: 'View hello world',
-
-
   description: 'Display "Hello world" page.',
-
-
   exits: {
 
     success: {
@@ -14,8 +8,6 @@ module.exports = {
     }
 
   },
-
-
   fn: async function () {
 
     // Respond with view.
