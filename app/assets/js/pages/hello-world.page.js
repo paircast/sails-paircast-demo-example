@@ -10,7 +10,7 @@ parasails.registerPage('hello-world', {
   watch: {
     me: {
       deep: true,
-      handler: function (newValue) {
+      handler: async (newValue) => {
         console.log('going')
         await Cloud.updateProfile.with(newValue)
       }
