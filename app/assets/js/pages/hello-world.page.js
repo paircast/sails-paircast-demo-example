@@ -11,7 +11,6 @@ parasails.registerPage('hello-world', {
     me: {
       deep: true,
       handler: function (newValue) {
-        console.log(newValue)
       }
     }
   },
