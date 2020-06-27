@@ -3,7 +3,7 @@ parasails.registerPage('hello-world', {
   //  ║║║║║ ║ ║╠═╣║    ╚═╗ ║ ╠═╣ ║ ║╣
   //  ╩╝╚╝╩ ╩ ╩╩ ╩╩═╝  ╚═╝ ╩ ╩ ╩ ╩ ╚═╝
   data: {
-    hello: ''
+    me: {}
     //…
   },
 
